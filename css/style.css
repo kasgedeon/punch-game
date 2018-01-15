@@ -1,0 +1,38 @@
+body{
+	background-color: #fff;
+	color: #000305;
+	font-size: 95%; /*Base font 14px */
+	font-family: Verdana, Georgia, 'Century Gothic', 'Lucidas Sans Unicode';
+	margin: 1%;
+}
+
+#img {
+	width: 400px;
+	height: 250px;
+	margin: 0 auto;
+	background: url(../img/img.jpg) center no-repeat;
+	background-size: 55%;
+	border: solid 1px #ccc;
+}
+
+#img.burst {
+	background: url(../img/img_.jpg) center no-repeat;
+	background-size: 55%;
+}
+
+#photo-health {
+	width: 200px;
+	margin: 10px auto;
+	border: solid 2px #000;
+	border-radius: 4px;
+}
+
+#photo-health div{
+	height: 30px;
+	background: crimson;
+}
+
+#controls {
+	width: 125px;
+	margin: 10px auto;
+}
